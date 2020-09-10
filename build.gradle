@@ -27,14 +27,3 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
-
-//flyway {
-//	url = 'jdbc:mysql://127.0.0.1:3306/supermarket'
-//	user = 'root'
-//	password = ''
-//	schemas = ['schema1', 'schema2', 'schema3']
-//	placeholders = [
-//			'keyABC': 'valueXYZ',
-//			'otherplaceholder': 'value123'
-//	]
-//}

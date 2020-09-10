@@ -1,4 +1,4 @@
-package com.mark.jerseyweb;
+package com.mark.web;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

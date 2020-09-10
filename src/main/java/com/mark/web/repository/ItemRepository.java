@@ -1,12 +1,12 @@
-package com.mark.jerseyweb;
+package com.mark.web.repository;
 
-import com.sun.xml.bind.v2.model.core.ID;
-import org.springframework.data.jpa.repository.JpaRepository;
+import com.mark.web.entity.ItemEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.Optional;
-
+/**
+ * @author zhimao.lin
+ */
 @Repository
 public interface ItemRepository extends CrudRepository<ItemEntity, Integer> {
 }

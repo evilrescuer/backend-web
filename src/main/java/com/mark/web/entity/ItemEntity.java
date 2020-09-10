@@ -1,4 +1,4 @@
-package com.mark.jerseyweb;
+package com.mark.web.entity;
 
 import lombok.Data;
 
@@ -8,6 +8,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * @author zhimao.lin
+ */
 @Entity
 @Data
 @Table(name = "item")

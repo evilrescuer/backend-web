@@ -1,4 +1,4 @@
-package com.mark.jerseyweb;
+package com.mark.web.dto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
