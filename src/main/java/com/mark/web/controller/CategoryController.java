@@ -43,7 +43,7 @@ public class CategoryController {
         CategoryEntity newCategory = new CategoryEntity();
         newCategory.setName(categoryEntity.getName());
         CategoryEntity generatedCategory = categoryRepository.save(newCategory);
-        categoryEntity.getItems().forEach(itemEntity -> {
+        categoryEntity.getItems().stream().forEach(itemEntity -> {
             itemEntity.setCategoryId(generatedCategory.getId());
             itemRepository.save(itemEntity);
         });
